@@ -1,0 +1,818 @@
+@media screen and (max-width: 1400px) {
+    .hero.fastivalBanner img {
+        height: 230px;
+    }
+    .hero.fastivalBanner {
+        height: 300px;
+    }
+    .CouponBoxMain table td span{width: 93%;}
+    .SplBusMain .busPart2{width: 28.6%;}
+    .SplBusMain .busPart3{width: 26%;}
+    .SplBusMain .busPart2 .BusLogoSrch {
+        float: right;
+        margin-right: 4%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .search-result-card .top-search-result-card .SearchCard.SearchCard07 button {
+        font-size: 15px;
+    }
+    .brandlogo a:nth-of-type(2) {
+        width: 50%;
+        display: inline-flex;
+    }
+    .form-in-custom {
+        width: 28%;
+    }
+    .modal-body .col-md-4 .text-center.mt-2 button.btn {
+        margin-bottom: 12px;
+    }
+    .SplBusMain .busPart2{width: 28%;}
+    .SplBusMain .busPart3{width: 25%;}
+    .SplBusMain .busPart2 .BusLogoSrch{margin: 0;}
+    .SplBusMain .busPart2 .BusLogoSrch img{width: 45px;}
+    .SplBusMain .busPart2 .BusoperatorBox{width: 80%;}
+}
+@media screen and (max-width: 1060px) {
+    .search-result-card .top-search-result-card .SearchCard.SearchCard07 button {
+        font-size: 14px;
+    }
+    .CouponBoxMain .heading-02{line-height: 15px;}
+    .CouponBoxMain table td span {
+        width: 90%;
+    }
+    .SplBusMain .busPart2 .BusoperatorBox {
+        float: left;
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .search-result-card .top-search-result-card .SearchCard.SearchCard07 {
+        width: 100px;
+    }
+    .brandlogo a:nth-of-type(2) {
+        width: 40%;
+        display: inline-flex;
+    }
+    .hero.fastivalBanner img {
+        height: 190px;
+    }
+    .hero.fastivalBanner {
+        height: 260px;
+    }
+    .SplBusMain .busPart4{font-size: 28px;}
+    .SplBusMain .busPart2 {width: 55%;}
+    .SplBusMain .busPart3 {
+        width: 18%;line-height: 19px;
+    }
+    .SplBusMain .busPart2 strong {
+        font-size: 14px;
+    }
+    .SplBusMain .busPart2 .BusLogoSrch img {
+        width: 60px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .hero.fastivalBanner img {
+        height: 170px;
+    }
+    .hero.fastivalBanner {
+        height: 240px;
+    }
+    .CouponBoxMain table td span {
+        width: 88%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .brandlogo a:nth-of-type(2) {
+        width: auto;
+        display: inline;
+    }
+    .hero.fastivalBanner img {
+        height: 150px;
+        margin-top: 60px;
+    }
+    .hero.fastivalBanner {
+        height: 210px;
+    }
+    .azadim {
+        display: none;
+    }
+    .CouponBoxMain table td span {
+        width: auto;
+        float: left;
+        margin-left: 8px;
+    }
+    .SplBusMain .busPart2 .BusoperatorBox {
+        float: left;
+        width: 60%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    ul.nav-icons-wrap li {
+        overflow: unset;
+    }
+    .form-in-custom {
+        width: 26%;
+    }
+    ul.nav-icons-wrap li a span {
+        line-height: 16px;
+    }
+    .content-widget ul li {
+        width: auto;
+        margin-bottom: 0;
+        float: left;
+        margin-right: 20px;
+    }
+    .content-widget {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+    .title-widget hr {
+        margin-top: 5px;
+    }
+    .right-sorting-wrap {
+        display: none;
+    }
+    .SearchCard02,
+    .SearchCard04,
+    .right-sorting-wrap label:nth-of-type(2),
+    .right-sorting-wrap label:nth-of-type(4) {
+        width: 8%;
+    }
+    .SearchCard03,
+    .right-sorting-wrap label:nth-of-type(3) {
+        width: 21%;
+    }
+    .SearchCard05,
+    .right-sorting-wrap label:nth-of-type(5) {
+        width: 10%;
+    }
+    .SearchCard06,
+    .right-sorting-wrap label:nth-of-type(6) {
+        width: 19%;
+    }
+    .SearchCard06 button.btn {
+        font-size: 14px;
+    }
+    .Amenities-wrap-left {
+        width: 33%;
+    }
+    .Amenities-wrap-left ul li {
+        width: 22px;
+        padding: 2px;
+    }
+    .Amenities-wrap-right {
+        display: inline-block;
+        width: 66%;
+        text-align: right;
+        vertical-align: top;
+        margin-top: 5px;
+    }
+    .Amenities-wrap-right ul li {
+        margin: 0 0 5px 1px;
+    }
+    .h3,
+    h3 {
+        font-size: 1.25rem;
+    }
+    .myaccount-wrap {
+        padding-top: 60px;
+        margin-top: 20px;
+    }
+    .bus-info {
+        width: 33%;
+        margin-bottom: 10px;
+    }
+    .seat-info {
+        width: 15%;
+    }
+    .Boarding-info,
+    .Dropping-info {
+        width: 20%;
+    }
+    .duration-info {
+        width: 9%;
+    }
+    .duration-info label {
+        margin: 0;
+        border-top: 1px solid #a5a5a5;
+        color: #666;
+        padding-left: 0;
+        border-left: none;
+    }
+    .Contact-detail-wrap input.form-control,
+    .Contact-detail-wrap select.form-control {
+        margin-bottom: 5px;
+    }
+    .time-info {
+        font-size: 11px;
+    }
+    .heading-02-wrap.fare-details-wrap button {
+        font-size: 12px;
+    }
+    .top-search-myaccount-card .SearchCard.tripinfo {
+        width: auto;
+        float: right;
+    }
+    .top-search-myaccount-card .SearchCard.tripboarding,
+    .top-search-myaccount-card .SearchCard.tripdate,
+    .top-search-myaccount-card .SearchCard.tripplace {
+        width: 24%;
+        margin-right: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .top-search-myaccount-card .SearchCard.tripstatus {
+        width: 25%;
+        text-align: right;
+    }
+    .top-search-myaccount-card .SearchCard.tripdate strong {
+        font-size: 36px;
+    }
+    .top-search-myaccount-card .SearchCard.tripdate label {
+        font-size: 14px;
+    }
+    .top-search-myaccount-card .SearchCard.tripstatus label {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 569px) and (max-width: 767px) {
+    .navbar-right .navbar-nav {
+        margin-top: 0;
+        width: 100%;
+        display: initial;
+        text-align: right;
+    }
+    .navbar-right .navbar-nav li {
+        display: inline-block;
+        margin: 0 5px 0 5px;
+    }
+    .navbar-right .navbar-nav li .dropdown-menu a {
+        font-size: 13px;
+    }
+    ul.nav-icons-wrap {
+        display: list-item;
+        margin: 0 0 10px;
+    }
+    ul.nav-icons-wrap li {
+        margin-left: 0;
+        display: inline-block;
+        width: 16%;
+        vertical-align: top;
+        margin-bottom: 0;
+    }
+    ul.nav-icons-wrap li a {
+        font-size: 12px;
+    }
+    ul.nav-icons-wrap li a span {
+        display: none;
+    }
+    .Home-Form-Section .form-in-custom {
+        width: 33.3%;
+        padding: 5px !important;
+    }
+    .form-in-custom {
+        width: 27%;
+        padding: 5px !important;
+    }
+    .form-in-custom3 {
+        padding-bottom: 5px;
+        width: auto;
+        display: block;
+        float: none;
+        border-top: none;
+        text-align: center;
+        padding-top: 12px;
+    }
+    .form-in-custom3 label.blank-label {
+        height: 0;
+        display: block;
+    }
+    .Home-Form-Section .form-in-custom3 {
+        padding-top: 6px;
+    }
+    .footer-content {
+        padding: 15px 0 0;
+    }
+    .content-widget {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .title-widget hr {
+        margin: 2px 0;
+    }
+    .content-widget ul {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .content-widget ul li {
+        line-height: 24px;
+        width: 33%;
+        float: left;
+    }
+    .text-coppyright {
+        padding: 0;
+        text-align: center;
+    }
+    .brandlogo {
+        text-align: center;
+    }
+    .brandlogo a {
+        margin: 0 5px;
+    }
+    .back-top a {
+        right: 10px;
+        bottom: 10px;
+    }
+    .Filter-btm-fixed.Show,
+    .left_Filter .close {
+        display: block;
+    }
+    .Filter-btm-fixed {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+        color: #fff;
+        border: 2px solid #fecc2f;
+        background-color: #fecc2f;
+        text-align: center;
+        opacity: 1;
+        border-radius: 50%;
+        position: fixed;
+        left: 2%;
+        bottom: 2%;
+        transition: all 0.8s linear 0s;
+    }
+    .Filter-btm-fixed a {
+        display: block;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .left_Filter {
+        display: none;
+        width: 100%;
+        position: absolute;
+        z-index: 9999;
+        top: 0;
+        background: #f3f1f1;
+        padding: 15px 10px;
+    }
+    .search-Form-Section {
+        padding: 70px 0 7px;
+    }
+    .search-Form-Section .card .form-in-custom {
+        border-right: 1px solid #fff;
+    }
+    .search-Form-Section .card .form-in-custom .form-control {
+        border-bottom: none !important;
+    }
+    .right-sorting-wrap {
+        display: none;
+    }
+    .SearchCard01 {
+        width: 100%;
+        text-align: center;
+    }
+    .SearchCard02,
+    .SearchCard04 {
+        width: 18%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .SearchCard03 {
+        width: 60%;
+        text-align: center;
+    }
+    .SearchCard05 {
+        width: 56%;
+        text-align: center;
+        background: #f1f9f2;
+    }
+    .SearchCard06 {
+        width: 40%;
+        text-align: right;
+    }
+    .Amenities-wrap-left {
+        width: 100%;
+        display: inline-block;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .Amenities-wrap-right {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .Amenities-wrap-right ul li {
+        margin-bottom: 5px;
+    }
+    .Amenities-wrap-right ul li a {
+        font-size: 12px;
+    }
+    .search-result-card:last-child {
+        margin-bottom: 50px;
+    }
+    .myaccount-wrap {
+        padding-top: 50px;
+        margin-top: 20px;
+    }
+    .bus-info {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .seat-info {
+        width: 28%;
+    }
+    .Boarding-info,
+    .Dropping-info {
+        width: 38%;
+    }
+    .duration-info {
+        width: 22%;
+    }
+    .duration-info label {
+        margin: 0;
+        border-top: 1px solid #a5a5a5;
+        color: #666;
+        padding-left: 0;
+        border-left: none;
+    }
+    .Contact-detail-wrap input.form-control,
+    .Contact-detail-wrap select.form-control {
+        margin-bottom: 5px;
+    }
+    .top-search-myaccount-card .SearchCard.tripinfo {
+        width: auto;
+        float: right;
+    }
+    .top-search-myaccount-card .SearchCard.tripboarding,
+    .top-search-myaccount-card .SearchCard.tripdate,
+    .top-search-myaccount-card .SearchCard.tripplace {
+        width: 32%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .top-search-myaccount-card .SearchCard.tripstatus {
+        width: 100%;
+        text-align: center;
+        background: #f1f9f2;
+    }
+    .heading-02-wrap ul li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .SplBusMain .busPart1{width: 65px;}
+}
+
+@media screen and (max-width: 450px) {
+    .hero.fastivalBanner img {
+        height: 110px;
+        margin-top: 60px;
+    }
+    .hero.fastivalBanner {
+        height: 170px;
+    }
+    .CouponBoxMain table td span{width: 90%;}
+}
+@media screen and (max-width: 380px) {
+    .modal-body .col-md-4 .text-center.mt-2 button.btn {
+        font-size: 12px;
+    }
+    .hero.fastivalBanner img {
+        height: 100px;
+        margin-top: 52px;
+    }
+    .hero.fastivalBanner {
+        height: 150px;
+    }
+}
+@media screen and (min-width: 319px) and (max-width: 568px) {
+    .hero img {
+        margin-top: 265px;
+    }
+    .navbar-right .navbar-nav {
+        margin-top: 0;
+        width: 100%;
+        display: initial;
+        text-align: right;
+    }
+    .navbar-right .navbar-nav li {
+        display: inline-block;
+        margin: 0 2px 0 2px;
+    }
+    .navbar-right .navbar-nav li .dropdown-menu a,
+    .navbar-right .navbar-nav li a {
+        font-size: 12px;
+    }
+    .Home-Form-Section {
+        padding: 10px 0;
+    }
+    ul.nav-icons-wrap {
+        display: list-item;
+        margin: 0 0 10px;
+    }
+    ul.nav-icons-wrap li {
+        margin-left: 0;
+        display: inline-block;
+        width: 23%;
+        vertical-align: top;
+        margin-bottom: 0;
+    }
+    ul.nav-icons-wrap li a {
+        font-size: 12px;
+    }
+    ul.nav-icons-wrap li a span {
+        display: none;
+    }
+    .form-in-custom {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #dddada;
+    }
+    .form-in-custom.form-in-custom2 {
+        padding-left: 5px;
+    }
+    .form-in-custom3 {
+        margin: 20px 0 10px;
+        width: 100%;
+        float: left;
+    }
+    label.blank-label {
+        display: none;
+    }
+    .form-in-custom .form-control,
+    .form-in-custom .form-control::placeholder,
+    .search-Form-Section .card .form-in-custom .form-control {
+        font: 400 16px Roboto, sans-serif;
+    }
+    .top-search-myaccount-card .SearchCard.tripinfo {
+        width: auto;
+        float: right;
+    }
+    .top-search-myaccount-card .SearchCard.tripboarding,
+    .top-search-myaccount-card .SearchCard.tripdate,
+    .top-search-myaccount-card .SearchCard.tripplace {
+        width: 32%;
+        margin-right: 0;
+        text-align: center;
+    }
+    .top-search-myaccount-card .SearchCard.tripstatus {
+        width: 100%;
+        text-align: center;
+        background: #f1f9f2;
+    }
+    .top-search-myaccount-card .SearchCard strong {
+        font-size: 11px;
+    }
+    .top-search-myaccount-card .SearchCard.tripboarding p,
+    .top-search-myaccount-card .SearchCard.tripplace label {
+        font-size: 10px;
+    }
+    .myaccount-table .table td,
+    .myaccount-table .table th {
+        font-size: 14px;
+    }
+    .top-search-myaccount-card .SearchCard.tripstatus label {
+        font-size: 16px;
+    }
+    .top-search-myaccount-card .SearchCard.tripdate strong {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .top-search-myaccount-card .SearchCard label {
+        font-size: 11px;
+    }
+    .Filter-btm-fixed.Show,
+    .left_Filter .close {
+        display: block;
+    }
+    .Filter-btm-fixed {
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+        color: #fff;
+        border: 2px solid #fecc2f;
+        background-color: #fecc2f;
+        text-align: center;
+        opacity: 1;
+        border-radius: 50%;
+        position: fixed;
+        left: 2%;
+        bottom: 2%;
+        transition: all 0.8s linear 0s;
+    }
+    .Filter-btm-fixed a {
+        display: block;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .left_Filter {
+        display: none;
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        background: #f3f1f1;
+        padding: 15px 10px;
+        height: 100%;
+        overflow-y: scroll;
+    }
+    .main-content .heading-02 h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .right-sorting-wrap {
+        display: none;
+    }
+    .SearchCard01 {
+        width: 100%;
+        text-align: center;
+    }
+    .SearchCard02,
+    .SearchCard04 {
+        width: 18%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .SearchCard03 {
+        width: 60%;
+        text-align: center;
+    }
+    .SearchCard05 {
+        width: 56%;
+        text-align: center;
+        background: #f1f9f2;
+    }
+    .SearchCard06 {
+        width: 40%;
+        text-align: right;
+    }
+    .Amenities-wrap-left {
+        width: 100%;
+        display: inline-block;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .Amenities-wrap-right {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .Amenities-wrap-right ul li {
+        margin-bottom: 5px;
+    }
+    .Amenities-wrap-right ul li a {
+        font-size: 12px;
+    }
+    .search-result-card:last-child {
+        margin-bottom: 50px;
+    }
+    .search-result-card .collapse .card-body {
+        padding: 5px;
+    }
+    .seat-lower-wrap {
+        margin: 0 auto;
+        width: 98%;
+        display: block;
+        max-width: 250px;
+    }
+    .seat-lower-wrap.seat-right-wrap {
+        float: none;
+    }
+    .buspackages-top h2 {
+        font-size: 16px;
+    }
+    .footer-content {
+        padding: 15px 0 0;
+    }
+    .content-widget {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .title-widget hr {
+        margin: 2px 0;
+    }
+    .content-widget ul {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .content-widget ul li {
+        line-height: 18px;
+        width: 50%;
+        float: left;
+    }
+    .text-coppyright {
+        padding: 0;
+        text-align: center;
+    }
+    .brandlogo {
+        text-align: center;
+    }
+    .brandlogo a {
+        margin: 0 5px;
+    }
+    .back-top a {
+        right: 10px;
+        bottom: 10px;
+    }
+    .modalLogin .modal-body {
+        padding: 0.5rem;
+    }
+    .modalLogin .modal-body .card .form-group input.form-control,
+    .modalLogin ul.nav li a {
+        font-size: 0.85rem;
+    }
+    .modalLogin .modal-body .card .form-group i {
+        bottom: 10px;
+    }
+    .modalLogin .modal-body .card .form-footer {
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+    .modalLogin .modal-body .card .form-footer p {
+        font-size: 13px;
+    }
+    #sidebar ul li a {
+        padding: 5px 10px;
+        font-size: 0.85em;
+    }
+    .search-Form-Section {
+        padding: 60px 0 0;
+    }
+    .myaccount-wrap {
+        padding-top: 12%;
+        margin-top: 4%;
+    }
+    .bus-info {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .bus-info i {
+        font-size: 34px;
+    }
+    .bus-info p {
+        font-size: 10px;
+    }
+    .seat-info {
+        width: 28%;
+        font-size: 11px;
+    }
+    .Boarding-info,
+    .Dropping-info {
+        width: 38%;
+        font-size: 13px;
+    }
+    .duration-info {
+        width: 21%;
+        font-size: 12px;
+    }
+    .Boarding-info strong,
+    .Dropping-info strong {
+        font-size: 16px;
+    }
+    .Boarding-info label,
+    .Dropping-info label {
+        font-size: 10px;
+    }
+    .time-info {
+        font-size: 11px;
+    }
+    .duration-info label {
+        margin: 0;
+        border-top: 1px solid #a5a5a5;
+        color: #666;
+        padding-left: 0;
+        font-size: 12px;
+        border-left: none;
+    }
+    .Contact-detail-wrap input.form-control,
+    .Contact-detail-wrap select.form-control {
+        margin-bottom: 5px;
+    }
+    .notfound-page {
+        margin: 200px auto;
+    }
+    .notfound-page img {
+        max-width: 90%;
+    }
+    .modal .close {
+        right: -5px;
+        top: -10px;
+    }
+    a.nav-link i.fa-user-circle {
+        font-size: 24px;
+    }
+    .heading-02-wrap ul li {
+        font-size: 11px;
+    }
+}

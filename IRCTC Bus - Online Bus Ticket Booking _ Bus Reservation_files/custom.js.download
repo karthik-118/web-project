@@ -1,0 +1,71 @@
+(function ($) {
+
+
+
+    //sidebar navigation 
+    $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+    });
+
+    $('#dismiss, .overlay').on('click', function () {
+        $('#sidebar').removeClass('active');
+        $('.overlay').removeClass('active');
+        $
+    });
+
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').addClass('active');
+        $('.overlay').addClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+
+    $('#sidebarCollapse1').on('click', function () {
+        $('#sidebar').addClass('active');
+        $('.overlay').addClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+
+    //Step Wizard
+
+
+
+    // ================================== Down to Top JS ==================================
+
+    $(function () {
+
+        // Scroll Event
+        $(window).on('scroll', function () {
+            var scrolled = $(window).scrollTop();
+            if (scrolled > 300) $('.back-top').addClass('active');
+            if (scrolled < 300) $('.back-top').removeClass('active');
+        });
+
+
+        $('.back-top').click(function () {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+
+        $( document ).ready(function() {
+            // var heights = $("#carousel05 .owl-stage-outer .owl-item .item .effect-apollo").height();
+            // var widths = $("#carousel05 .owl-stage-outer .owl-item .item .effect-apollo").width();
+            // $("#carousel05 .owl-stage-outer .owl-item .item .effect-apollo img").attr("height", heights);
+            // $("#carousel05 .owl-stage-outer .owl-item .item .effect-apollo img").attr("width", widths);
+            var logoHeight = $(".col-4.col-md-3.pr-0 a.navbar-brand.p-0.mx-0").height();
+            var logoWidth = $(".col-4.col-md-3.pr-0 a.navbar-brand.p-0.mx-0").width();
+            $(".col-4.col-md-3.pr-0 a.navbar-brand.p-0.mx-0 img").attr("height", logoHeight);
+            $(".col-4.col-md-3.pr-0 a.navbar-brand.p-0.mx-0 img").attr("width", logoWidth);
+
+        }) 
+
+    });
+
+    jQuery(function(t){t(window).on("scroll",function(){var e=t(".navbar");e.length&&t(".scrolling-navbar")[e.offset().top>50?"addClass":"removeClass"]("top-nav-collapse")})})
+
+
+
+})(jQuery);

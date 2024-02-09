@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #dc772a; /* Set the background color of the top bar */
+            color: #fff; /* Set the text color of the top bar */
+            padding: 10px; /* Add some padding for better visual appearance */
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Make the list items horizontal */
+        }
+
+        li {
+            margin-right: 20px; /* Add some spacing between list items */
+        }
+
+        li:last-child {
+            margin-right: 0; /* Remove margin from the last list item */
+        }
+
+        img {
+            height: 30px;
+            width: auto;
+            margin-left: auto; /* Move the logo to the right */
+            display: block; /* Remove default inline display */
+        }
+
+        a {
+           text-decoration: none;
+           color: #fff; 
+        }
+
+        .slider-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%; /* Adjust the maximum width as needed */
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slider-images {
+            display: flex;
+            animation: slide-in 9s infinite;
+        }
+
+        .slider-image {
+            width: 100%;
+            /* max-width: 100%; Ensure images fit the screen width */
+            height: 100px; /* Maintain aspect ratio */
+            flex: 0 0 auto;
+        }
+
+        .bus-container {
+            max-width: 600px; /* Set the maximum width for the bus container */
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .bus-image {
+            width: 100%;
+            height: auto;
+            max-height: 200px; /* Set the maximum height for the bus image */
+        }
+
+        @keyframes slide-in {
+            0%, 100% {
+                transform: translateX(100%);
+            }
+            25%, 75% {
+                transform: translateX(0%);
+            }
+            50% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Optional: Add styling for navigation buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            user-select: none;
+        }
+        .book{
+              text-align: center;
+              text-decoration: ;
+        }
+        table,tr,td{
+            padding-left: 50px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        .but1{
+            box-sizing: 30px;
+            background-color: rgb(247, 136, 136);
+            
+            
+        }
+        .tdd{
+            background-color: blue;
+        }
+/* 
+        .prev { left: 10px; }
+        .next { right: 10px; } */
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li>E-Ticketing</li>
+                <li>E-Catering</li>
+                <li>Contact Us</li>
+                <li><img src="dmk logo.jpeg" alt="LOGO"></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- <hr> -->
+    <div class="slider-container">
+        <div class="slider-images">
+            <img class="slider-image" src="a2.jpeg" alt="Image 1">
+            <img class="slider-image" src="a3.jpeg" alt="Image 2">
+            <img class="slider-image" src="a4.jpeg" alt="Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </div><div>
+    <h1 class="book">Book Bus Tickets Here &#128652;</h1>
+   
+  <div>
+   <form>
+    <table>
+        <tr>
+            <td><label for="city">Depart From</label>
+                <input list="cityOptions" id="city" name="city" placeholder="Type to search...">
+                <datalist id="cityOptions">
+                    <option value="Bangalore">
+                    <option value="Hyderabad">
+                    <option value="Tumkur">
+                    <option value="Kalaburagi">
+                    <option value="Bidar">
+                    <option value="Bellari">
+                    <option value="Raichur">
+                    <!-- Add more options as needed -->
+                </datalist></td>
+        
+        
+<td> <label for="city2">Destination</label>
+    <input list="cityopt2" id="city" placeholder="enter destination here">
+    <datalist id="cityopt2">
+        <option value="Ayodhya">
+            <option value="Faizabad">
+          
+    </datalist></td>
+        
+        <td><label for="date">Date</label>
+            <input type="date" name="" id="date">
+       </td>
+    </tr>
+
+    </table>
+     
+   
+
+    <center><button type="submit" class="but1" id="someElement">Show Available Buses</button></center>
+    <!-- <div id="shbus"></div> -->
+    <table>
+        <tr>
+            <td id="shhead1"></td>
+            <td id="shhead2"></td>
+            <td id="shhead3"></td>
+            <td id="shhead4"></td>
+            <td id="shhead5"></td>
+        </tr>
+        <tr id="     ">
+            <td id="shbus"></td>
+            <td id="shbus1"></td>
+            <td id="shbus2"></td>
+            <td id="shbus3"></td>
+            <td id="shbus4"></td>
+        </tr>
+        <tr id="     ">
+            <td id="shbuss"></td>
+            <td id="shbuss1"></td>
+            <td id="shbuss2"></td>
+            <td id="shbuss3"></td>
+            <td id="shbuss4"></td>
+        </tr>
+    </table>
+
+ 
+</form>
+</div>
+
+<!-- 
+Depart From
+Please enter origin cityGoing To
+Going To
+Departure Date
+02-02-2024 -->
+
+
+    <div class="bus-container">
+        <a href="bus.jpeg">
+            <img class="bus-image" src="bus.jpeg" alt="Bus Image">
+        </a>
+        
+
+
+    </div>
+<script>
+    // setTimeout(function myfun(){
+    //     alert("Bolo Jai Shree Ram ");}
+    // ,3000)
+    // alert.style.backgroundColor="red";
+ 
+        const showbus = function(event) {
+            event.preventDefault(); // Prevent the form from submitting (optional)
+            let shbus = document.getElementById("shbus");
+            shhead1.innerHTML = "TIMINGS"
+            shhead2.innerHTML = "Bus Name"
+            shhead3.innerHTML = "Availability"
+            shhead4.innerHTML = "Running Days"
+            shhead5.innerHTML = "Click Here"
+
+            shbus.innerHTML = "8:45 AM -- 7:15 PM ";
+            shbus1.innerHTML = "Ayodhya Express "
+            shbus2.innerHTML = " Not running today "
+            shbus3.innerHTML = " S M T W T F S"
+            shbus4.innerHTML = "<button>"+"  Click"+"</button>"
+
+            shbuss.innerHTML = "6:45 PM -- 10:15 AM ";
+            shbuss1.innerHTML = "RAM SENA Express "
+            shbuss2.innerHTML = " Available 26U , UpperBerth"
+            shbuss3.innerHTML = " S M T F S"
+            shbuss4.innerHTML = "<button>"+"  Click "+"</button>"
+
+
+        };
+
+        document.getElementById("someElement").addEventListener("click", showbus);
+    </script>
+
+</div>
+</body>
+</html>
