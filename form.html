@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Default text color */
+        }
+
+        header {
+            background-color: #FFD700; /* Gold background for header */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #FFA500; /* Orange background for navigation */
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: #FFF8DC; /* Cornsilk background for sections */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #FF4500; /* Dark orange heading color */
+        }
+
+        footer {
+            background-color: #FFA500; /* Orange background for footer */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            color: white;
+        }
+
+        form {
+            background-color: #FFDAB9; /* Peachpuff background for form */
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="number"],
+        input[type="radio"],
+        input[list],
+        textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="radio"] {
+            margin: 5px;
+        }
+
+        input[list] {
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #FF4500; /* Dark orange submit button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #FF6347; /* Lighter shade of dark orange on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ram Mandir</h1>
+        <p>Experience the divine presence of Lord Ram</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#personal-details">Personal Details</a></li>
+            <li><a href="#ram-mandir-concept">Ram Mandir Concept</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="personal-details">
+        <h2>Personal Details</h2>
+        <form id="myForm">
+            First Name : <input type="text" name="firstName" required><br>
+            Middle Name: <input type="text" name="middleName"><br>
+            Last Name: <input type="text" name="lastName" required><br>
+            Gender : Male <input type="radio" name="gender" value="male">Female <input type="radio" name="gender" value="female"><br>
+            Marital Status:  Married<input type="radio" name="maritalStatus" value="married">Unmarried <input type="radio" name="maritalStatus" value="unmarried"><br>
+            Date of Birth : <input type="date" name="dob" required><br>
+            Occupation: <input type="text" name="occupation"><br>
+            Aadhaar Card No <input type="text" name="aadhaar"><br>
+            Email : <input type="email" name="email" required><br>
+            Phone No :<input type="tel" name="phone" required><br>
+            <label for="city">Nationality</label>
+            <input list="cityOptions" id="city" name="city" placeholder="Type to search..." required>
+            <datalist id="cityOptions">
+                <option value="India">
+                <option value="Mexico">
+                <option value="Canada">
+                <option value="UK">
+                <option value="Earth">
+            </datalist>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="ram-mandir-concept">
+        <h2>Ram Mandir Concept</h2>
+        <p>The Ram Mandir, also known as the Ayodhya Ram Mandir, is a Hindu temple that is being constructed at the site of the demolished Babri Masjid in Ayodhya, Uttar Pradesh, India. It is dedicated to Lord Ram, a prominent deity in Hinduism, and is expected to become one of the largest Hindu temples in the world once completed.</p>
+    </section>
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us:</p>
+        <ul>
+            <li>Email: info@rammandir.com</li>
+            <li>Phone: +91 1234567890</li>
+            <li>Address: Ayodhya, Uttar Pradesh, India</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Ram Mandir. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript code to handle form submission
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Retrieve form data
+            var formData = new FormData(this);
+            
+            // Convert form data to JSON
+            var jsonData = {};
+            formData.forEach(function(value, key){
+                jsonData[key] = value;
+            });
+            var jsonString = JSON.stringify(jsonData);
+            
+            // Display form data in an alert
+            alert(jsonString);
+        });
+    </script>
+</body>
+</html>
